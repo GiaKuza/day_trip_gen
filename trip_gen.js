@@ -21,3 +21,12 @@ function random_day_selector(){
 
 let randomDay = random_day_selector();
 console.log(randomDay);
+
+function random_restaurant_selector(){
+    let randomRestaurant = ['Mcdonalds', 'Arbys', 'Wendys', 'Burger King', 'Chipotle'];
+    let randomNumber = (Math.floor(Math.random() * 4) + 0);
+    return randomRestaurant[randomNumber];
+}
+
+let randomRestaurant = random_restaurant_selector();
+console.log(randomRestaurant);
